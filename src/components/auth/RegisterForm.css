@@ -1,0 +1,121 @@
+.loginform-container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px 10px;
+}
+.title,
+.subtitle {
+  text-align: center;
+  width: 100%;
+}
+.title {
+
+}
+
+.title {
+  font-size: 49px;
+  color: #410C9D;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: -10px;
+  color: #666;
+  font-size: 15px;
+}
+
+/* Input Group */
+.input-group {
+  width: 100%;
+  background: #e7eaff;
+  padding: 12px 14px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+/* Tombol utama */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #410C9D;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.divider {
+  text-align: center;
+  color: #666;
+}
+
+/* Google Button */
+.btn-google {
+  width: 100%;
+  padding: 12px;
+  background: #e7eaff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.google-icon {
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #410C9D;
+}
+
+.signup-text {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.signup-text a {
+  color: #410C9D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #555;
+}
+
+.logo {
+  background: #410C9D;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+}

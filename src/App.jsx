@@ -1,9 +1,20 @@
-function app() {
+import RegisterForm from "./components/auth/RegisterForm";
+
+function App() {
   return (
-  <>
-    <h1 className="text-red-500">hello world</h1>
-  </>
-  )
+    <div
+      style={{
+        width: "100%",
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        background: "#f5f5f5",
+      }}
+    >
+      <RegisterForm />
+    </div>
+  );
 }
 
-export default app
+export default App;
