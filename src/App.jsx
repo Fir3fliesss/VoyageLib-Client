@@ -1,8 +1,21 @@
+import AdminDashboard from "./components/dashboard/AdminDashboard"
+import StaffDashboard from "./components/dashboard/StaffDashboard"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+
+
 function app() {
   return (
-  <>
-    <h1 className="text-red-500">hello world</h1>
-  </>
+    // <>
+    // <AdminDashboard />
+    // </>
+    <BrowserRouter >
+      <Routes >
+        <Route path="/book/create" element={<AdminDashboard />}/>
+        <Route path="/" element={<StaffDashboard />}/>
+        <Route path="/bo" element={<haghbxacbaDashboard />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
