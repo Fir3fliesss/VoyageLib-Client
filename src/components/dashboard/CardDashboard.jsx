@@ -2,7 +2,7 @@ import React from "react";
 
  function CardDashboard() {
   return (
-    <div className="w-full min-h-screen p-6 space-y-6">
+    <div className="w-full p-6 space-y-6">
       {/* Top Stats */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Card 1 */}

@@ -1,7 +1,7 @@
 function AddBookForm() {
     return (
         <>
-            <div className="min-h-screen flex items-center justify-center  bg-gray-100">
+            <div className="flex items-center justify-center p-6 space-y-6 ">
                 <div className="w-full max-w-sm bg-[#9CBBFF] p-6 rounded-xl shadow-lg">
 
                     <form>

@@ -42,7 +42,7 @@ function Sidebar() {
                             </Link>
 
                             {/* manajement book*/}
-                            <Link to="/" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-[#340C9D]  hover:bg-opacity-25 rounded-2xl">
+                            <Link to="/searchbooks" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-[#340C9D]  hover:bg-opacity-25 rounded-2xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     className="mr-2" viewBox="0 0 24 24">
                                     <path fill="none" stroke="currentColor" strokeWidth="2"
@@ -64,7 +64,7 @@ function Sidebar() {
 
 
                             {/* Users */}
-                            <Link to="#" className="flex items-center px-4 py-2 mt-auto text-gray-100   hover:bg-opacity-25 rounded-2xl">
+                            <Link to="#" className="flex items-center px-4 py-2 mt-auto text-gray-100 bg-[#340C9D] hover:bg-opacity-25 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     className="mr-2" viewBox="0 0 32 32">
                                     <path fill="currentColor"
