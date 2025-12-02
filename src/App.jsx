@@ -1,10 +1,11 @@
-import AdminDashboard from "./components/dashboard/AdminDashboard"
-import StaffDashboard from "./components/dashboard/StaffDashboard"
+import AdminDashboard from "./pages/AdminDashboard"
+import StaffDashboard from "./pages/StaffDashboard"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import SignUpForm from "./components/auth/RegisterForm"
+import SignInForm from "./components/auth/LoginForm"
 
 
-
-function app() {
+function App() {
   return (
     // <>
     // <AdminDashboard />
@@ -13,7 +14,8 @@ function app() {
       <Routes >
         <Route path="/book/create" element={<AdminDashboard />}/>
         <Route path="/" element={<StaffDashboard />}/>
-        <Route path="/bo" element={<haghbxacbaDashboard />}/>
+        <Route path="/RegisterForm" element={<SignUpForm />}/>
+        <Route path="/LoginForm" element={<SignInForm />}/>
       </Routes>
     </BrowserRouter>
   )
