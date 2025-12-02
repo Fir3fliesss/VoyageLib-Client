@@ -1,36 +1,36 @@
-<<<<<<< HEAD
-import AdminDashboard from "./pages/AdminDashboard"
-import StaffDashboard from "./pages/StaffDashboard"
-=======
-import CreateBooks from "./pages/CreateBooks"
-import CardDashboard from "./pages/AdminDashboard"
->>>>>>> 22e2fc70149701b3fa8a7b88380c2c39e627f7a1
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import SignUpForm from "./components/auth/RegisterForm"
-import SignInForm from "./components/auth/LoginForm"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import AdminDashboard from "./pages/AdminDashboard";
+import StaffDashboard from "./pages/StaffDashboard";
+import CreateBooks from "./pages/CreateBooks";
+import CardDashboard from "./pages/AdminDashboard"; // kalau ini salah, nanti kamu ubah
+import SignUpForm from "./components/auth/RegisterForm";
+import SignInForm from "./components/auth/LoginForm";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 22e2fc70149701b3fa8a7b88380c2c39e627f7a1
 function App() {
   return (
-  
-    <BrowserRouter >
-      <Routes >
-<<<<<<< HEAD
-        <Route path="/book/create" element={<AdminDashboard />}/>
-        <Route path="/" element={<StaffDashboard />}/>
-        <Route path="/RegisterForm" element={<SignUpForm />}/>
-        <Route path="/LoginForm" element={<SignInForm />}/>
-=======
-        <Route path="/" element={<CreateBooks />}/>
-        <Route path="/dashboard" element={<CardDashboard />}/>
->>>>>>> 22e2fc70149701b3fa8a7b88380c2c39e627f7a1
+    <BrowserRouter>
+      <Routes>
+
+        {/* Default halaman staff */}
+        <Route path="/" element={<StaffDashboard />} />
+
+        {/* Admin Dashboard */}
+        <Route path="/dashboard" element={<AdminDashboard />} />
+
+        {/* Halaman khusus pembuatan buku */}
+        <Route path="/book/create" element={<CreateBooks />} />
+
+        {/* Login & Register */}
+        <Route path="/RegisterForm" element={<SignUpForm />} />
+        <Route path="/LoginForm" element={<SignInForm />} />
+
+        {/* CardDashboard (kalau ini memang diperlukan) */}
+        <Route path="/card" element={<CardDashboard />} />
+
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
