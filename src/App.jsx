@@ -1,19 +1,16 @@
-import AdminDashboard from "./components/dashboard/AdminDashboard"
-import StaffDashboard from "./components/dashboard/StaffDashboard"
+import CreateBooks from "./pages/CreateBooks"
+import CardDashboard from "./pages/AdminDashboard"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 
-function app() {
+function App() {
   return (
-    // <>
-    // <AdminDashboard />
-    // </>
+  
     <BrowserRouter >
       <Routes >
-        <Route path="/book/create" element={<AdminDashboard />}/>
-        <Route path="/" element={<StaffDashboard />}/>
-        <Route path="/bo" element={<haghbxacbaDashboard />}/>
+        <Route path="/" element={<CreateBooks />}/>
+        <Route path="/dashboard" element={<CardDashboard />}/>
       </Routes>
     </BrowserRouter>
   )

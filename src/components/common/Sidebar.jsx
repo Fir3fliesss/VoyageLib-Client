@@ -9,7 +9,7 @@ function Sidebar() {
                     <nav className="flex flex-col flex-1 overflow-y-auto bg-[#9CBBFF]px-2 py-4 gap-10 rounded-2xl">
 
                         <div>
-                            <Link to="/" className="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-400">
+                            <Link to="/" className="flex items-center px-4 py-2 text-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -21,7 +21,7 @@ function Sidebar() {
 
                         <div className="flex flex-col flex-1 gap-3">
                             {/* Home */}
-                            <Link to="/" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-400 hover:bg-opacity-25 rounded-2xl">
+                            <Link to="/dashboard" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-[#340C9D]  hover:bg-opacity-25 rounded-2xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" className="mr-2">
                                     <path fill="currentColor" fillRule="evenodd"
@@ -32,7 +32,7 @@ function Sidebar() {
                             </Link>
 
                             {/* Manajement account */}
-                            <Link to="#" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-400 hover:bg-opacity-25 rounded-2xl">
+                            <Link to="#" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-[#340C9D]  hover:bg-opacity-25 rounded-2xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     className="mr-2" viewBox="0 0 32 32">
                                     <path fill="currentColor"
@@ -42,7 +42,7 @@ function Sidebar() {
                             </Link>
 
                             {/* manajement book*/}
-                            <Link to="/" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-400 hover:bg-opacity-25 rounded-2xl">
+                            <Link to="/" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-[#340C9D]  hover:bg-opacity-25 rounded-2xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     className="mr-2" viewBox="0 0 24 24">
                                     <path fill="none" stroke="currentColor" strokeWidth="2"
@@ -53,7 +53,7 @@ function Sidebar() {
 
                             {/* create book */}
 
-                            <Link to="/book/create" className="flex items-center px-4 py-2 mt-2 text-white hover:bg-gray-400 hover:bg-opacity-25 rounded-2xl">
+                            <Link to="/" className="flex items-center px-4 py-2 mt-2 text-white hover:bg-[#340C9D] hover:bg-opacity-25 rounded-2xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     className="mr-2" viewBox="0 0 24 24">
                                     <path fill="currentColor"
@@ -64,7 +64,7 @@ function Sidebar() {
 
 
                             {/* Users */}
-                            <Link to="#" className="flex items-center px-4 py-2 mt-auto text-gray-100 hover:bg-gray-400 hover:bg-opacity-25 rounded-2xl">
+                            <Link to="#" className="flex items-center px-4 py-2 mt-auto text-gray-100   hover:bg-opacity-25 rounded-2xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     className="mr-2" viewBox="0 0 32 32">
                                     <path fill="currentColor"
