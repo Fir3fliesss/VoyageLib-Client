@@ -1,4 +1,5 @@
 import MainLayout from "../layouts/main.layout";
+import StaffDashboard from "./pages/StaffDashboard"
 
 function StaffDashboard() {
   return (

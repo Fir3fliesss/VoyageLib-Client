@@ -1,10 +1,10 @@
-import AddBookForm from "../components/books/AddBookForm"
+import CardDashboard from "../components/dashboard/CardDashboard";
 import MainLayout from "../layouts/main.layout"
 
 function AdminDashboard() {
   return (
     <MainLayout >
-      <AddBookForm />
+      <CardDashboard />
     </MainLayout>
   )
 }
